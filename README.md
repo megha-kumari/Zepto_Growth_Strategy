@@ -21,5 +21,64 @@ The Zepto Growth Strategy simulation tracks how marketing spend and delivery imp
 ## How to Run the Code
 
 1. **Clone the repository**:
+git clone https://github.com/yourusername/Zepto_Growth_Strategy.git
+
+
+2. **Install the required libraries**:
+The project requires the following Python libraries:
+- pandas
+- matplotlib
+
+To install them, run:
+pip install pandas matplotlib
+
+
+3. **Run the simulation**:
+Run the `growth_strategy.py` script to simulate the growth strategy over 30 days:
+python scripts/growth_strategy.py
+
+
+This will generate the file `Zepto_Growth_Strategy.csv` in the `results/` folder.
+
+
+4. **Generate visualizations**:
+Run the `visualisation.py` script to generate visualizations (e.g., Capital Utilization, Customer Growth):
+python scripts/visualisation.py
+
+
+This will create PNG files in the `visuals/` folder.
+
+5. **Run the sensitivity analysis**:
+Run the `analysis.py` script to perform sensitivity analysis on different capital allocation strategies:
+
+python scripts/analysis.py
+
+
+This will create additional PNG files in the `visuals/` folder.
+
+## Files Included
+
+- **Python Scripts**:
+- `growth_strategy.py`: Simulates the growth strategy over 30 days.
+- `visualization.py`: Generates visualizations of key metrics (e.g., capital available, customer growth).
+- `analysis.py`: Performs sensitivity analysis on different allocation strategies.
+
+- **Results**:
+- `Zepto_Growth_Strategy.csv`: Contains the day-wise results of the simulation.
+
+- **Visualizations**:
+- `Capital_Utilization.png`: Capital Available vs Capital End over 30 days.
+- `Customer_Growth.png`: Customer growth over 30 days.
+- `Total_Orders.png`: Total orders over 30 days.
+- `Spending_Comparison.png`: Comparison of marketing and delivery spending.
+
+- **Documentation**:
+- `analysis_report.pdf`: Detailed report summarizing the findings, insights, and recommendations.
+
+
+
+
+
+
 
 
